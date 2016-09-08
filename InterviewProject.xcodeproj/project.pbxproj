@@ -15,6 +15,9 @@
 		92580F551D3FFD92000A9609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92580F531D3FFD92000A9609 /* LaunchScreen.storyboard */; };
 		92580F601D3FFD93000A9609 /* InterviewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92580F5F1D3FFD93000A9609 /* InterviewProjectTests.m */; };
 		92580F6B1D3FFD93000A9609 /* InterviewProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92580F6A1D3FFD93000A9609 /* InterviewProjectUITests.m */; };
+		92580F7B1D401D5E000A9609 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92580F791D401D5E000A9609 /* CollectionViewCell.m */; };
+		92580F7C1D401D5E000A9609 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92580F7A1D401D5E000A9609 /* CollectionViewCell.xib */; };
+		92580F7F1D403A84000A9609 /* customlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 92580F7E1D403A84000A9609 /* customlayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		92580F661D3FFD93000A9609 /* InterviewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92580F6A1D3FFD93000A9609 /* InterviewProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterviewProjectUITests.m; sourceTree = "<group>"; };
 		92580F6C1D3FFD93000A9609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92580F781D401D5E000A9609 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		92580F791D401D5E000A9609 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		92580F7A1D401D5E000A9609 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		92580F7D1D403A84000A9609 /* customlayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customlayout.h; sourceTree = "<group>"; };
+		92580F7E1D403A84000A9609 /* customlayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customlayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		92580F441D3FFD92000A9609 /* InterviewProject */ = {
 			isa = PBXGroup;
 			children = (
+				92580F7D1D403A84000A9609 /* customlayout.h */,
+				92580F7E1D403A84000A9609 /* customlayout.m */,
 				92580F481D3FFD92000A9609 /* AppDelegate.h */,
 				92580F491D3FFD92000A9609 /* AppDelegate.m */,
 				92580F4B1D3FFD92000A9609 /* ViewController.h */,
@@ -110,6 +120,9 @@
 				92580F531D3FFD92000A9609 /* LaunchScreen.storyboard */,
 				92580F561D3FFD92000A9609 /* Info.plist */,
 				92580F451D3FFD92000A9609 /* Supporting Files */,
+				92580F781D401D5E000A9609 /* CollectionViewCell.h */,
+				92580F791D401D5E000A9609 /* CollectionViewCell.m */,
+				92580F7A1D401D5E000A9609 /* CollectionViewCell.xib */,
 			);
 			path = InterviewProject;
 			sourceTree = "<group>";
@@ -245,6 +258,7 @@
 			files = (
 				92580F551D3FFD92000A9609 /* LaunchScreen.storyboard in Resources */,
 				92580F521D3FFD92000A9609 /* Assets.xcassets in Resources */,
+				92580F7C1D401D5E000A9609 /* CollectionViewCell.xib in Resources */,
 				92580F501D3FFD92000A9609 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +286,8 @@
 			files = (
 				92580F4D1D3FFD92000A9609 /* ViewController.m in Sources */,
 				92580F4A1D3FFD92000A9609 /* AppDelegate.m in Sources */,
+				92580F7B1D401D5E000A9609 /* CollectionViewCell.m in Sources */,
+				92580F7F1D403A84000A9609 /* customlayout.m in Sources */,
 				92580F471D3FFD92000A9609 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
